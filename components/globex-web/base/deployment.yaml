@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: globex-web
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rshah-tenant/globex-web/globex-web@sha256:cf0116555a2225f5b9ad5df583f3e14b6689acf7ee2bca9aaa29794b8b2e6b44
+      - image: quay.io/redhat-user-workloads/rshah-tenant/globex-web/globex-web@sha256:bb269fac8eebb18c0f396708151d77d7c283a64cdbdf66593802e44dba7e503d
         imagePullPolicy: Always
         name: container-image
         ports:
